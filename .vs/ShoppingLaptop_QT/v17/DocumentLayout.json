@@ -42,8 +42,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -54,8 +62,7 @@
               "RelativeToolTip": "ShoppingLaptop_QT\\Repository\\DataContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T11:12:54.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T11:12:54.084Z"
             },
             {
               "$type": "Document",
@@ -65,7 +72,7 @@
               "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Models\\ProductModel.cs",
               "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Models\\ProductModel.cs",
               "RelativeToolTip": "ShoppingLaptop_QT\\Models\\ProductModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T11:05:48.059Z",
               "EditorCaption": ""
@@ -80,8 +87,7 @@
               "RelativeToolTip": "ShoppingLaptop_QT\\Models\\BrandModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T11:04:53.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T11:04:53.797Z"
             },
             {
               "$type": "Document",
@@ -93,8 +99,7 @@
               "RelativeToolTip": "ShoppingLaptop_QT\\Models\\CategoryModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T10:25:33.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T10:25:33.633Z"
             },
             {
               "$type": "Document",
@@ -106,8 +111,7 @@
               "RelativeToolTip": "ShoppingLaptop_QT\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T10:23:35.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T10:23:35.078Z"
             },
             {
               "$type": "Document",
@@ -119,8 +123,7 @@
               "RelativeToolTip": "ShoppingLaptop_QT\\Views\\Shared\\_SidebarPartial.cshtml",
               "ViewState": "AgIAAHsAAAAAAAAAAAAawI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T10:11:54.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T10:11:54.29Z"
             },
             {
               "$type": "Document",
@@ -132,8 +135,7 @@
               "RelativeToolTip": "ShoppingLaptop_QT\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAGwAAAAAAAAAAAAAAHYAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T09:48:08.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T09:48:08.337Z"
             },
             {
               "$type": "Document",
@@ -145,8 +147,7 @@
               "RelativeToolTip": "ShoppingLaptop_QT\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T09:47:39.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T09:47:39.801Z"
             }
           ]
         }
