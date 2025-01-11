@@ -1,0 +1,1 @@
+# ShoppingLaptop_QT
