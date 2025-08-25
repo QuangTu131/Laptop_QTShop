@@ -167,3 +167,6 @@ D:\Code\ShoppingLaptop_QT\ShoppingLaptop_QT\bin\Debug\net8.0\runtimes\win\lib\ne
 D:\Code\ShoppingLaptop_QT\ShoppingLaptop_QT\obj\Debug\net8.0\ShoppingLaptop_QT.csproj.AssemblyReference.cache
 D:\Code\ShoppingLaptop_QT\ShoppingLaptop_QT\obj\Debug\net8.0\ShoppingLaptop_QT.sourcelink.json
 D:\Code\ShoppingLaptop_QT\ShoppingLaptop_QT\obj\Debug\net8.0\Shopping.C50AF018.Up2Date
+D:\Code\ShoppingLaptop_QT\ShoppingLaptop_QT\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Code\ShoppingLaptop_QT\ShoppingLaptop_QT\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Code\ShoppingLaptop_QT\ShoppingLaptop_QT\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

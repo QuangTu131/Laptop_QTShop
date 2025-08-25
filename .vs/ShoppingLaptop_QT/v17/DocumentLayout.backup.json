@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "D:\\Code\\ShoppingLaptop_QT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\repository\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\views\\shared\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\views\\shared\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\areas\\admin\\views\\order\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\areas\\admin\\views\\order\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|d:\\code\\shoppinglaptop_qt\\shoppinglaptop_qt\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7AA6957C-A85B-4322-ACA3-D2263AEFE171}|ShoppingLaptop_QT\\ShoppingLaptop_QT.csproj|solutionrelative:shoppinglaptop_qt\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,104 +38,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Repository\\DataContext.cs",
-              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Repository\\DataContext.cs",
-              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Repository\\DataContext.cs",
-              "RelativeToolTip": "ShoppingLaptop_QT\\Repository\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T11:12:54.084Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductModel.cs",
-              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Models\\ProductModel.cs",
-              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Models\\ProductModel.cs",
-              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Models\\ProductModel.cs",
-              "RelativeToolTip": "ShoppingLaptop_QT\\Models\\ProductModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAgAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "ShoppingLaptop_QT\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-24T07:09:18.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "ShoppingLaptop_QT\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAIIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-24T07:06:34.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShoppingLaptop_QT\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAQwMgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T11:05:48.059Z",
+              "WhenOpened": "2025-08-24T06:57:28.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BrandModel.cs",
-              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Models\\BrandModel.cs",
-              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Models\\BrandModel.cs",
-              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Models\\BrandModel.cs",
-              "RelativeToolTip": "ShoppingLaptop_QT\\Models\\BrandModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T11:04:53.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryModel.cs",
-              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Models\\CategoryModel.cs",
-              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Models\\CategoryModel.cs",
-              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Models\\CategoryModel.cs",
-              "RelativeToolTip": "ShoppingLaptop_QT\\Models\\CategoryModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T10:25:33.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "ShoppingLaptop_QT\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T10:23:35.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_SidebarPartial.cshtml",
-              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Views\\Shared\\_SidebarPartial.cshtml",
-              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Views\\Shared\\_SidebarPartial.cshtml",
-              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Views\\Shared\\_SidebarPartial.cshtml",
-              "RelativeToolTip": "ShoppingLaptop_QT\\Views\\Shared\\_SidebarPartial.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAawI4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T10:11:54.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ShoppingLaptop_QT\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHYAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T09:48:08.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ShoppingLaptop_QT\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T09:47:39.801Z"
+              "WhenOpened": "2025-08-24T06:32:39.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewOrder.cshtml",
+              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "RelativeToolTip": "ShoppingLaptop_QT\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAFgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T15:26:50Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "ShoppingLaptop_QT\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T15:26:41.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ShoppingLaptop_QT\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ShoppingLaptop_QT\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowGQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T14:53:03.544Z",
+              "EditorCaption": ""
             }
           ]
         }

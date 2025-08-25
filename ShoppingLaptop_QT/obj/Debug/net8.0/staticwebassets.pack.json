@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ShoppingLaptop_QT.bundle.scp.css"
     },
     {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
       "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
@@ -35,6 +39,18 @@
     {
       "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\images\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery1.jpg"
     },
     {
       "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\js\\bootstrap.min.js",
@@ -299,6 +315,34 @@
     {
       "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\1646e883-65bb-4789-a374-ec0aedd6d8bb_5.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\1646e883-65bb-4789-a374-ec0aedd6d8bb_5.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\62407ab3-6ccf-45fc-9d69-6251f184f077_3.png",
+      "PackagePath": "staticwebassets\\media\\products\\62407ab3-6ccf-45fc-9d69-6251f184f077_3.png"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\9a1086b0-9177-4db8-a9cf-3b721450d9c5_4.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\9a1086b0-9177-4db8-a9cf-3b721450d9c5_4.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\9e89e00d-2461-4b4f-a155-b65ea529dce2_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\9e89e00d-2461-4b4f-a155-b65ea529dce2_1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\ca69a3be-35dd-40ff-9a3c-7f1fc8cc0289_2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ca69a3be-35dd-40ff-9a3c-7f1fc8cc0289_2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\f86ccd77-f1cc-44f1-9f6e-824fb921a1d1_Screenshot 2025-08-24 135638.png",
+      "PackagePath": "staticwebassets\\media\\products\\f86ccd77-f1cc-44f1-9f6e-824fb921a1d1_Screenshot 2025-08-24 135638.png"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\fe051da5-3c5c-4925-82bf-e15a22759f3b_3.png",
+      "PackagePath": "staticwebassets\\media\\products\\fe051da5-3c5c-4925-82bf-e15a22759f3b_3.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShoppingLaptop_QT.Microsoft.AspNetCore.StaticWebAssets.props",
