@@ -33,6 +33,8 @@ namespace ShoppingLaptop_QT.Models
 		public CategoryModel Category { get; set; }
 		public BrandModel Brand { get; set; }
 
+		public RatingModel Ratings { get; set; }
+
 		[NotMapped]
 		[FileExtension]
 		public IFormFile? ImageUpload { get; set; }
