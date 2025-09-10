@@ -280,6 +280,27 @@ namespace ShoppingLaptop_QT.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("ShoppingLaptop_QT.Models.CompareModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<long>("ProductId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Compares");
+                });
+
             modelBuilder.Entity("ShoppingLaptop_QT.Models.OrderDetails", b =>
                 {
                     b.Property<int>("Id")
@@ -375,6 +396,28 @@ namespace ShoppingLaptop_QT.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("ShoppingLaptop_QT.Models.ProductQuantityModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProductQuantities");
+                });
+
             modelBuilder.Entity("ShoppingLaptop_QT.Models.RatingModel", b =>
                 {
                     b.Property<int>("Id")
@@ -423,6 +466,27 @@ namespace ShoppingLaptop_QT.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Sliders");
+                });
+
+            modelBuilder.Entity("ShoppingLaptop_QT.Models.WishlistModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<long>("ProductId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Wishlists");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -476,6 +540,17 @@ namespace ShoppingLaptop_QT.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ShoppingLaptop_QT.Models.CompareModel", b =>
+                {
+                    b.HasOne("ShoppingLaptop_QT.Models.ProductModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("ShoppingLaptop_QT.Models.OrderDetails", b =>
                 {
                     b.HasOne("ShoppingLaptop_QT.Models.ProductModel", "Product")
@@ -511,6 +586,17 @@ namespace ShoppingLaptop_QT.Migrations
                     b.HasOne("ShoppingLaptop_QT.Models.ProductModel", "Product")
                         .WithOne("Ratings")
                         .HasForeignKey("ShoppingLaptop_QT.Models.RatingModel", "ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("ShoppingLaptop_QT.Models.WishlistModel", b =>
+                {
+                    b.HasOne("ShoppingLaptop_QT.Models.ProductModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

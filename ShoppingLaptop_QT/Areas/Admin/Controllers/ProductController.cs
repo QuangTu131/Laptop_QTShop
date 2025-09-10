@@ -185,23 +185,35 @@ namespace ShoppingLaptop_QT.Areas.Admin.Controllers
 		}
 
 		[Route("Delete")]
-		public async Task<IActionResult> Delete(int Id)
+		public async Task<IActionResult> Delete(long Id)
 		{
-			ProductModel product = await _dataContext.Products.FindAsync(Id);
-			if (!string.Equals(product.Image, "noname.jpg"))
+			var product = await _dataContext.Products.FindAsync(Id);
+
+			if (product == null)
+			{
+				TempData["error"] = "Không tìm thấy sản phẩm để xóa";
+				return RedirectToAction("Index");
+			}
+
+			// Chỉ xóa ảnh nếu có ảnh và ảnh không phải là ảnh mặc định
+			if (!string.IsNullOrEmpty(product.Image) && !string.Equals(product.Image, "noname.jpg"))
 			{
 				string uploadsDir = Path.Combine(_webHostEnvironment.WebRootPath, "media/products");
 				string oldfileImage = Path.Combine(uploadsDir, product.Image);
+
 				if (System.IO.File.Exists(oldfileImage))
 				{
 					System.IO.File.Delete(oldfileImage);
 				}
-			}	
-			_dataContext.Products.Remove(product); 
-			await _dataContext.SaveChangesAsync(); 
-			TempData["error"] = "Sản phẩm đã xóa"; 
+			}
+
+			_dataContext.Products.Remove(product);
+			await _dataContext.SaveChangesAsync();
+
+			TempData["error"] = "Sản phẩm đã được xóa";
 			return RedirectToAction("Index");
 		}
+
 
 	}
 }

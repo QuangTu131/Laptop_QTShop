@@ -60,7 +60,8 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="index.html"><img src="images/home/logo.png" alt="" /></a>
+							<a href="index.html"><img src="images/home/logo.png" alt="" /> QT lapTop</a>
+							
 						</div>
 						<div class="btn-group pull-right">
 							<div class="btn-group">
@@ -94,8 +95,9 @@
 								{
 									//<li><a href="#"><i class="fa fa-user"></i> Account</a></li>							
 									//<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-									<li><a asp-controller="Cart" asp-action="Index"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-									<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
+									<li><a asp-controller="Cart" asp-action="Index"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+									<li><a asp-controller="Home" asp-action="Wishlist"><i class="fa fa-star"></i> Yêu thích</a></li>
+									<li><a asp-controller="Home" asp-action="Compare"><i class="fa fa-star"></i> So sánh</a></li>
 									<li><a asp-controller="Account" asp-action="Logout"><i class="fa fa-lock"></i> Hi, @User.Identity.Name, Logout</a></li>
 								}
 								else
@@ -127,18 +129,21 @@
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a asp-controller="Home" asp-action="Index" class="active">Home</a></li>
 
-
-								<li class="dropdown">
-									<a href="#">Shop<i class="fa fa-angle-down"></i></a>
-									<ul role="menu" class="sub-menu">
-										@* <li><a asp-controller="Category" asp-action="Index">Categories</a></li>
+								@if (User.Identity?.IsAuthenticated ?? false)
+								{
+									<li class="dropdown">
+										<a href="#">Shop<i class="fa fa-angle-down"></i></a>
+										<ul role="menu" class="sub-menu">
+											@* <li><a asp-controller="Category" asp-action="Index">Categories</a></li>
 										<li><a asp-controller="Product" asp-action="Index">Products</a></li>
 										<li><a asp-controller="Brand" asp-action="Index">Brands</a></li> *@
-										@* <li><a asp-controller="Cart" asp-action="Checkout">Checkout</a></li> *@
-										<li><a asp-controller="Cart" asp-action="Index">Cart</a></li>										
-									</ul>
-								</li>
-
+											@* <li><a asp-controller="Cart" asp-action="Checkout">Checkout</a></li> *@
+											<li><a asp-controller="Cart" asp-action="Index">Giỏ hàng</a></li>
+											<li><a asp-controller="Home" asp-action="Wishlist">Yêu thích</a></li>
+											<li><a asp-controller="Home" asp-action="Compare">So sánh</a></li>
+										</ul>
+									</li>
+								}
 
 								@* <li class="dropdown">
 									<a href="#">Blog<i class="fa fa-angle-down"></i></a>
@@ -165,52 +170,6 @@
 			</div>
 		</div><!--/header-bottom-->
 	</header><!--/header-->
-
-	<section id="slider">
-		<!--slider-->
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#slider-carousel" data-slide-to="1"></li>
-							<li data-target="#slider-carousel" data-slide-to="2"></li>
-						</ol>
-
-						<div class="carousel-inner">
-							<div class="item active">
-								<div class="col-sm-12">
-									@* <h1><span>QTu</span>-LaptopShop</h1>
-									<h2>Free E-Commerce Template</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Get it now</button> *@
-									<img src="https://laptopworld.vn/media/news/0912_Promotion_Campaign_KV_1900x684.jpg" width="100%" height="300px" />
-								</div>			
-								
-							</div>							
-							<div class="item">							
-								<img src="https://laptopworld.vn/media/news/0912_Promotion_Campaign_KV_1900x684.jpg" width="100%" height="300px" />
-							</div>
-
-							<div class="item">						
-								<img src="https://www.funkykit.com/wp-content/uploads/2020/06/ACER-predator-gaming-laptop-banner.jpg" width="100%" height="300px" />
-							</div>
-						</div>
-
-						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
-							<i class="fa fa-angle-left"></i>
-						</a>
-						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
-							<i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</section><!--/slider-->
-
 	<section>
 		<div class="container">
 			<div class="row">

@@ -317,32 +317,92 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\1646e883-65bb-4789-a374-ec0aedd6d8bb_5.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\1646e883-65bb-4789-a374-ec0aedd6d8bb_5.jpg"
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\0dd1e9eb-1d24-4fa9-8a65-d2d661e5c7e1_dell-alienware-16-aurora-ac16250-core-5-210h-71072939-2-638925917530015667-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0dd1e9eb-1d24-4fa9-8a65-d2d661e5c7e1_dell-alienware-16-aurora-ac16250-core-5-210h-71072939-2-638925917530015667-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\0ebcbd5b-9934-4d3c-95c1-dd1442d904d8_asus-gaming-tuf-f15-fx507zc4-i5-hn330w-2-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0ebcbd5b-9934-4d3c-95c1-dd1442d904d8_asus-gaming-tuf-f15-fx507zc4-i5-hn330w-2-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\1a3629b5-599b-4d43-9462-68d4dd7281b8_lenovo-ideapad-slim-3-15irh10-i5-83k1000hvn-2-638814316997318889-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\1a3629b5-599b-4d43-9462-68d4dd7281b8_lenovo-ideapad-slim-3-15irh10-i5-83k1000hvn-2-638814316997318889-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\273f6977-295d-4f34-b9b1-c746de7abc4e_hp-victus-15-fb1022ax-r5-94f19pa-hinh-2-700x467.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\273f6977-295d-4f34-b9b1-c746de7abc4e_hp-victus-15-fb1022ax-r5-94f19pa-hinh-2-700x467.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\27ee2e92-1cae-4478-9936-7a29e1c0a8f4_msi-modern-15-b12mo-i5-625vn-glr-2-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\27ee2e92-1cae-4478-9936-7a29e1c0a8f4_msi-modern-15-b12mo-i5-625vn-glr-2-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\35c4c266-9ff5-4f6b-a002-cc766b6e4d0e_asus-vivobook-go-15-e1504fa-r5-nj776w-glr-2-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\35c4c266-9ff5-4f6b-a002-cc766b6e4d0e_asus-vivobook-go-15-e1504fa-r5-nj776w-glr-2-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\416c42e7-6eb1-4b80-938a-881a4843848b_dell-latitude-3450-i5-l34501335u16512wn-1-638863820558749054-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\416c42e7-6eb1-4b80-938a-881a4843848b_dell-latitude-3450-i5-l34501335u16512wn-1-638863820558749054-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\51e9b042-25ca-439b-acd0-545b98b13539_macbook-air-13-inch-m4-16gb-256gb-tgdd-1-638768909105991664-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\51e9b042-25ca-439b-acd0-545b98b13539_macbook-air-13-inch-m4-16gb-256gb-tgdd-1-638768909105991664-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\5a11fe68-21aa-4d0b-bc5c-6c07b7806953_acer-nitro-v-15-anv15-41-r1jy-r5-nhqpfsv001-2-638717762795531290-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\5a11fe68-21aa-4d0b-bc5c-6c07b7806953_acer-nitro-v-15-anv15-41-r1jy-r5-nhqpfsv001-2-638717762795531290-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\5c36f8b4-7023-43f3-b1a4-bb118e87ced3_msi-thin-15-b12ucx-i5-2046vn-140225-102530-055-600x600.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\5c36f8b4-7023-43f3-b1a4-bb118e87ced3_msi-thin-15-b12ucx-i5-2046vn-140225-102530-055-600x600.jpg"
     },
     {
       "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\62407ab3-6ccf-45fc-9d69-6251f184f077_3.png",
       "PackagePath": "staticwebassets\\media\\products\\62407ab3-6ccf-45fc-9d69-6251f184f077_3.png"
     },
     {
-      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\9a1086b0-9177-4db8-a9cf-3b721450d9c5_4.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\9a1086b0-9177-4db8-a9cf-3b721450d9c5_4.jpg"
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\975cf5b0-acbf-44d1-a5e8-0225d2205c4e_acer-nitro-v-15-anv15-41-r1jy-r5-nhqpfsv001-2-638717762795531290-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\975cf5b0-acbf-44d1-a5e8-0225d2205c4e_acer-nitro-v-15-anv15-41-r1jy-r5-nhqpfsv001-2-638717762795531290-750x500.jpg"
     },
     {
-      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\9e89e00d-2461-4b4f-a155-b65ea529dce2_1.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\9e89e00d-2461-4b4f-a155-b65ea529dce2_1.jpg"
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\a93baa5e-f94e-4804-8a0e-438f11095ce3_dell-inspiron-15-3520-i5-71064798-new-2-638900911968938563-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\a93baa5e-f94e-4804-8a0e-438f11095ce3_dell-inspiron-15-3520-i5-71064798-new-2-638900911968938563-750x500.jpg"
     },
     {
-      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\ca69a3be-35dd-40ff-9a3c-7f1fc8cc0289_2.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\ca69a3be-35dd-40ff-9a3c-7f1fc8cc0289_2.jpg"
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\d6c5c43e-9f50-4626-9cdc-7505ac88caec_hp-15-fc0085au-r5-a6vv8pa-glr-2-638624254802444044-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\d6c5c43e-9f50-4626-9cdc-7505ac88caec_hp-15-fc0085au-r5-a6vv8pa-glr-2-638624254802444044-750x500.jpg"
     },
     {
-      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\f86ccd77-f1cc-44f1-9f6e-824fb921a1d1_Screenshot 2025-08-24 135638.png",
-      "PackagePath": "staticwebassets\\media\\products\\f86ccd77-f1cc-44f1-9f6e-824fb921a1d1_Screenshot 2025-08-24 135638.png"
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\ea2b93b7-e081-4601-b741-7c1a6515f62c_msi-thin-15-b12ucx-i5-2046vn-1-638718440275960644-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ea2b93b7-e081-4601-b741-7c1a6515f62c_msi-thin-15-b12ucx-i5-2046vn-1-638718440275960644-750x500.jpg"
     },
     {
-      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\fe051da5-3c5c-4925-82bf-e15a22759f3b_3.png",
-      "PackagePath": "staticwebassets\\media\\products\\fe051da5-3c5c-4925-82bf-e15a22759f3b_3.png"
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\products\\f1ecc43d-32e8-4e45-91d9-aaba1296333f_acer-aspire-lite-15-al15-41p-r3ql-r7-nxj54sv001-2-638763383168735232-750x500.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f1ecc43d-32e8-4e45-91d9-aaba1296333f_acer-aspire-lite-15-al15-41p-r3ql-r7-nxj54sv001-2-638763383168735232-750x500.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\sliders\\0891e6bc-e579-4827-8b35-99068ccca865_2.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\0891e6bc-e579-4827-8b35-99068ccca865_2.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\sliders\\1bc7003b-61f1-4758-8acf-73c2d1aee52a_18_Mare95ffd274c039d51bb5b9fa0e7e5dbef.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\1bc7003b-61f1-4758-8acf-73c2d1aee52a_18_Mare95ffd274c039d51bb5b9fa0e7e5dbef.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\sliders\\4191fb9b-264b-4789-97d5-1650a8670cea_4.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\4191fb9b-264b-4789-97d5-1650a8670cea_4.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\sliders\\4cc49b97-0f90-44ce-9d97-1708ebe52749_1.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\4cc49b97-0f90-44ce-9d97-1708ebe52749_1.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\sliders\\b876afc5-acf7-4a19-8a5a-eb8c65ff1b55_19_Julaf3c9900e25ff0544a407a8296f9d3e9.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\b876afc5-acf7-4a19-8a5a-eb8c65ff1b55_19_Julaf3c9900e25ff0544a407a8296f9d3e9.jpg"
+    },
+    {
+      "Id": "D:\\Code\\ShoppingLaptop_QT\\ShoppingLaptop_QT\\wwwroot\\media\\sliders\\f0bcd0b0-21fd-4e6d-86f2-1dfd9e0f2c4e_3.jpg",
+      "PackagePath": "staticwebassets\\media\\sliders\\f0bcd0b0-21fd-4e6d-86f2-1dfd9e0f2c4e_3.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShoppingLaptop_QT.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -9,7 +9,8 @@
 	<link href="~/css/bootstrap.min.css" rel="stylesheet">
 
 		<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.min.css" rel="stylesheet">
-		<link href="//cdn.datatables.net/2.3.3/css/dataTables.dataTables.min.css" rel="stylesheet">
+		<link href="https://cdn.datatables.net/2.3.3/css/dataTables.dataTables.css" rel="stylesheet">
+		<link href="https://cdn.datatables.net/buttons/3.2.4/css/buttons.dataTables.css" rel="stylesheet">
 
 	<link href="~/css/font-awesome.min.css" rel="stylesheet">
 	<link href="~/css/prettyPhoto.css" rel="stylesheet">
@@ -53,9 +54,6 @@
 							<a href="index.html"><img src="images/home/logo.png" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
-							
-
-							
 						</div>
 					</div>
 					
@@ -78,8 +76,8 @@
 						</div>
 						<div class="mainmenu pull-left">
 							<ul class="nav navbar-nav collapse navbar-collapse">
-								<li><a asp-action="index" asp-controller="Home">Homepage</a></li>							
-								<li><a asp-action="Index" asp-controller="Slider"> Sliders</a></li>
+								<li><a asp-action="Index" asp-controller="Product">Homepage</a></li>							
+								<li><a asp-area="Admin" asp-controller="Slider" asp-action="Index">Sliders</a></li>
 								<li><a asp-action="Index" asp-controller="Product"> Products</a></li>												
 								<li><a asp-action="Index" asp-controller="Category"> Categories</a></li>
 								<li><a asp-action="Index" asp-controller="Brand"> Brands</a></li>
@@ -121,6 +119,18 @@
 
 	<script src="//cdn.datatables.net/2.3.3/js/dataTables.min.js"></script>
 
+	<script src="https://cdn.datatables.net/buttons/3.2.4/js/dataTables.buttons.js"></script>
+	<script src="https://cdn.datatables.net/buttons/3.2.4/js/buttons.dataTables.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+	<script src="https://cdn.datatables.net/buttons/3.2.4/js/buttons.html5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/3.2.4/js/buttons.print.min.js"></script>
+
+
+
+
+
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.4/dist/sweetalert2.all.min.js"></script>
 	<script>
 		$(function () {
@@ -130,6 +140,17 @@
 				Swal.fire(message);
 			}
 		});
+	</script>
+
+	<script>
+		let table = new DataTable('#myTable', {
+			layout: {
+				topStart: {
+					buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+				}
+			}
+		});
+
 	</script>
 
 	@await RenderSectionAsync("Scripts",required:false)

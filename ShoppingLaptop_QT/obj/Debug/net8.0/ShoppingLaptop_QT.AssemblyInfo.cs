@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShoppingLaptop_QT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f335eec6e18a7c32d58408eafa10b10d6e588410")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7761949ff1ba0aed7a0af34015f43acc0083ef9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShoppingLaptop_QT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShoppingLaptop_QT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

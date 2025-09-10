@@ -1,0 +1,78 @@
+﻿@{
+    int index = 0;
+    var sliders = ViewBag.Sliders as List<ShoppingLaptop_QT.Models.SliderModel>;
+}
+<style>
+    /* Nút mũi tên trái */
+    .carousel-control.left,
+    .control-carousel.left {
+        left: 50px; /* Đẩy ra ngoài bên trái */
+    }
+
+    /* Nút mũi tên phải */
+    .carousel-control.right,
+    .control-carousel.right {
+        right: -50px; /* Đẩy ra ngoài bên phải */
+    }
+
+    /* Căn giữa theo chiều dọc */
+    .carousel-control,
+    .control-carousel {
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; /* bo tròn */
+        text-align: center;
+        line-height: 40px;
+        color: brown;
+        z-index: 1000;
+    }
+
+
+</style>
+<section id="slider">
+    <!--slider-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        @for (int i = 0; i < sliders.Count; i++)
+                        {
+                            <li data-target="#slider-carousel"
+                                data-slide-to="@i"
+                                class="@(i == 0 ? "active" : "")">
+                            </li>
+                        }
+                    </ol>
+
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        @foreach (var slider in sliders)
+                        {
+                            <div class="item @(index == 0 ? "active" : "")">
+                                <div class="col-sm-12">
+                                    <img src="~/media/sliders/@slider.Image"
+                                         class="girl img-responsive"
+                                         alt="slider image @index" />
+                                </div>
+                            </div>
+                            index++;
+                        }
+                    </div>
+
+                    <!-- Controls -->
+                    <a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/slider-->

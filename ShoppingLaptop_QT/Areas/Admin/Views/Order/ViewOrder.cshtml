@@ -8,7 +8,7 @@
 
 <h3>Order Details</h3>
 
-<table class="table table-bordered">
+<table class="table table-bordered" id="detail_order">
     <thead>
         <tr>
             <th>Id</th>
@@ -40,16 +40,18 @@
     </tbody>
     <tfoot>
         <tr>
-            <th colspan="5">Total:</th>
-            <td>@total.ToString("C")</td>
-            <td>
+            <th colspan="6" style="text-align:right">Total:</th>
+            <th>@total.ToString("C")</th>
+        </tr>
+        <tr>
+            <th colspan="6" style="text-align:right">Trạng thái:</th>
+            <th>
                 <select class="form-control select-update-order">
                     <option value="1">Đơn hàng mới</option>
                     <option value="0">Đã xử lý</option>
                 </select>
-            </td>
+            </th>
         </tr>
-
     </tfoot>
 </table>
 
@@ -58,37 +60,27 @@
         new DataTable('#detail_order', {
             layout: {
                 topStart: {
-                    buttons: ['pdf','print']
+                    buttons: ['pdf', 'print']
                 }
             }
         });
 
-    </script>
-    <script>
         $(document).ready(function () {
             $('.select-update-order').change(function () {
-                var status = $(this).val(); //status = 1
-                var ordercode = $('.getId').val(); //
-                // alert(status);
-                // alert(ordercode);
+                var status = $(this).val();
+                var ordercode = $('.getId').val();
 
                 $.ajax({
                     type: "POST",
                     url: "@Url.Action("UpdateOrder")",
-                    data: { status: status, ordercode: ordercode }, // Send data to the server
-
+                    data: { status: status, ordercode: ordercode },
                     success: function (result) {
-                        // Handle successful update
                         if (result.success) {
-
                             Swal.fire("Cập nhật đơn hàng thành công.");
                         } else {
-
                             Swal.fire("Cập nhật đơn hàng thất bại." + result.message);
-
                         }
                     }
-
                 });
             });
         });

@@ -6,7 +6,7 @@
 
 <a asp-action="Create" asp-controller="Role">Thêm Role</a>
 <h3>List Role admin</h3>
-<table class="table">
+<table class="table" id="myTable">
     <thead>
         <tr>
             <th scope="col">#</th>
@@ -21,7 +21,7 @@
             <tr>
                 <td>@item.Id</td>
                 <td>@item.Name</td>
-
+                <td></td>
                 <td>
                     <a asp-action="Edit" class="btn btn-warning btn-sm" asp-controller="Role" asp-route-Id="@item.Id">Edit</a>
                     <a asp-action="Delete" class="btn btn-danger btn-sm confirmDeletion" asp-controller="Role" asp-route-Id="@item.Id">Delete</a>
